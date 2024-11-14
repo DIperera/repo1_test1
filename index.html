@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <form id="login" onsubmit="validate(event)" method="POST" action="#">
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+            <button type="submit" >Send</button>
+            <div id="div1"></div>
+        </form>
+        <script src="validate.js"></script>
+    </body>
+</html>
